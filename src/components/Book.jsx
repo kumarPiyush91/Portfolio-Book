@@ -4,7 +4,7 @@ import myPic from "../assets/me.jpg";
 
 import { FaLinkedin, FaGithub, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
-// import "./Book.css";
+import "./Book.css";
 
 function Book() {
   const pages = [
