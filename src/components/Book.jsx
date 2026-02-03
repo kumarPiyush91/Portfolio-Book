@@ -8,7 +8,7 @@ import "./Book.css";
 
 function Book() {
   const pages = [
-   
+
     {
       content: (
         <div className="profile-section">
@@ -44,23 +44,24 @@ function Book() {
       ),
     },
 
-    
+
     {
       title: "About Me",
       content: (
         <p>
           I’m Piyush Kumar, a self-taught Software Engineer and Author with 5+ years of hands-on industry experience in software development. I learned web development using freely available online resources, which stands as proof that with the right mindset, consistency, and curiosity, anyone can build strong technical skills.
 
-I have authored 10 globally recognized books and actively contribute to various open-source platforms worldwide. I enjoy simplifying complex concepts through coding and writing, making them engaging, practical, and scalable.
+          I have authored 10 globally recognized books and actively contribute to various open-source platforms worldwide. I enjoy simplifying complex concepts through coding and writing, making them engaging, practical, and scalable.
 
-Let’s connect and create something worthwhile.
+          Let’s connect and create something worthwhile.
+
         </p>
+
+
       )
+
     },
-
-
-    
-    {
+{
       title: "Education",
       content: (
         <ul className="edu-list">
@@ -83,32 +84,32 @@ Let’s connect and create something worthwhile.
       ),
     },
 
-  
-   {
-  title: "Skills",
-  content: (
-    <div className="skills-wrapper">
-      <p>
-        <strong>• Frontend:</strong> React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS 
-      </p>
-      <p>
-        <strong>• State & Data:</strong> Redux, Context API, REST API, GraphQL 
-      </p>
-      <p>
-        <strong>• Backend & Database:</strong> Node.js, Express.js, MongoDB, MySQL
-      </p>
-      <p>
-        <strong>• Performance & Accessibility:</strong> WCAG Guidelines, Lighthouse Audits, Code Splitting, Lazy Loading 
-      </p>
-      <p>
-        <strong>• Testing & Tools:</strong> Jest, React Testing Library, Chrome DevTools, Vite, npm 
-      </p>
-      <p>
-        <strong>• DevOps:</strong> Git & GitHub, Docker, Netlify, Render 
-      </p>
-    </div>
-  ),
-},
+
+    {
+      title: "Skills",
+      content: (
+        <div className="skills-wrapper">
+          <p>
+            <strong>• Frontend:</strong> React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS
+          </p>
+          <p>
+            <strong>• State & Data:</strong> Redux, Context API, REST API, GraphQL
+          </p>
+          <p>
+            <strong>• Backend & Database:</strong> Node.js, Express.js, MongoDB, MySQL
+          </p>
+          <p>
+            <strong>• Performance & Accessibility:</strong> WCAG Guidelines, Lighthouse Audits, Code Splitting, Lazy Loading
+          </p>
+          <p>
+            <strong>• Testing & Tools:</strong> Jest, React Testing Library, Chrome DevTools, Vite, npm
+          </p>
+          <p>
+            <strong>• DevOps:</strong> Git & GitHub, Docker, Netlify, Render
+          </p>
+        </div>
+      ),
+    },
 
     {
       title: "Experience",
@@ -134,37 +135,39 @@ Let’s connect and create something worthwhile.
       ),
     },
 
-  
-    {
-  title: "Projects",
-  content: (
-    <div className="projects-list">
-      <a href="https://piyush-kumar.store/" className="project-link" target="_blank" rel="noopener noreferrer">
-        Project 1 - Personal BookStore: secure PayPal payment integration 
-      </a>
-      <a href="https://addons.mozilla.org/en-US/firefox/addon/laughy/" className="project-link" target="_blank" rel="noopener noreferrer">
-        Project 2 - Laughy: Firefox AddOn 
-      </a>
-      <a href="https://realtime-wildfire-tracker.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">
-        Project 3 - Realtime-wildfire-Tracker
-      </a>
-      <a href="https://www.npmjs.com/package/funny-error-excuse" className="project-link" target="_blank" rel="noopener noreferrer">
-        Project 4 - Funny-error-excuse : npm Package 
-      </a>
-      <a href="https://mamanourish.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">
-        Project 5 - MamaNourish: Pregnancy Nutrient Calculator 
-      </a>
-    </div>
-  ),
-},
 
-   
+    {
+      title: "Projects",
+      content: (
+        <div className="projects-list">
+          <a href="https://piyush-kumar.store/" className="project-link" target="_blank" rel="noopener noreferrer">
+            Project 1 - Personal BookStore: secure PayPal payment integration
+          </a>
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/laughy/" className="project-link" target="_blank" rel="noopener noreferrer">
+            Project 2 - Laughy: Firefox AddOn
+          </a>
+          <a href="https://realtime-wildfire-tracker.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">
+            Project 3 - Realtime-wildfire-Tracker
+          </a>
+          <a href="https://www.npmjs.com/package/funny-error-excuse" className="project-link" target="_blank" rel="noopener noreferrer">
+            Project 4 - Funny-error-excuse : npm Package
+          </a>
+          <a href="https://mamanourish.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">
+            Project 5 - MamaNourish: Pregnancy Nutrient Calculator
+          </a>
+        </div>
+      ),
+    },
+
+
     {
       title: "Contact",
       content: (
         <div className="contact-section">
           <p>Mobile: <a href="tel:+916201718719">+916201718719</a></p>
           <p>Email: <a href="mailto:p041991@gmail.com">p041991@gmail.com</a></p>
+
+
 
         </div>
       ),
@@ -174,7 +177,7 @@ Let’s connect and create something worthwhile.
       content: " Thank You for visiting",
     },
 
-  
+
     {
       content:
         "“If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.” ― 'Martin Luther King Jr.'",
@@ -182,9 +185,12 @@ Let’s connect and create something worthwhile.
     },
   ];
 
+ 
+              
+
   return (
     <HTMLFlipBook width={350} height={550} showCover={true} size="fixed">
-      {/* Cover Page */}
+
       <div className="page cover">
         <div className="page-content">
           <h1>Portfolio Flipbook</h1>
@@ -192,7 +198,7 @@ Let’s connect and create something worthwhile.
         </div>
       </div>
 
-      {/* Dynamic Pages */}
+
       {pages.map((page, index) => (
         <div key={index} className={`page ${page.className || ""}`}>
           <div className="page-content">
