@@ -169,14 +169,14 @@ h3 {
 @media (max-width: 768px) {
   .profile-pic {
     width: 200px;
-    height: 200px;
+    height: 220px;
   }
 }
 
 @media (max-width: 480px) {
   .profile-pic {
     width: 160px;
-    height: 160px;
+    height: 180px;
   }
 }
 
